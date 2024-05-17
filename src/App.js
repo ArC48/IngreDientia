@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import './App.css';
-import Default from './pages/Default';
-import Favorites from './pages/Favorites';
-import Home from './pages/Home';
-import SingleRecipe from './pages/SingleRecipe';
-
+import React, { Component } from "react";
+import "./App.css";
+import Default from "./pages/Default";
+import Favorites from "./pages/Favorites";
+import Home from "./pages/Home";
+import SingleRecipe from "./pages/SingleRecipe";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       <Home />
       <SingleRecipe />
       <Favorites />
-      < Default />
+      <Default />
     </div>
   );
 }
