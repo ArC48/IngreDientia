@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Home />
-      <SingleRecipe />
+      {/* <SingleRecipe />
       <Favorites />
-      <Default />
+      <Default /> */}
     </div>
   );
 }
