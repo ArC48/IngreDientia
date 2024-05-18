@@ -1,0 +1,58 @@
+.inputWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100vw; 
+  }
+  
+  .inputElement {
+    background-color: #FFFFFF !important;
+    background: url(./assets/magnifier.png) no-repeat scroll 18px 50%;
+    background-size: 30px;
+    /* padding-left: 30px; */
+    color: #4B4B4B;
+    padding: 13px 16px 13px 60px; 
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    width: 35%; 
+    transition: background-color 0.2s ease-in-out;
+    font-size: 20px;
+  }
+  .inputElement:hover {
+      background-color: #e3e3e3 !important;
+      cursor: pointer;
+    }
+
+  .inputElement:focus {
+    background-color: #FFFFFF !important;
+    cursor: text !important;
+    outline: 1.5px solid rgba(27, 105, 160, 0.703);
+    }
+    
+  
+  @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .inputElement {
+        width: 45%; 
+        font-size: 16px;
+        background-size: 26px;
+        padding: 13px 16px 13px 55px; 
+      }
+      .inputIcon {
+        width: 20px;
+        height: 20px;
+      }
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 999px) {
+    .inputElement {
+        width: 85%; 
+        font-size: 15px;
+        background-size: 25px;
+        padding: 13px 16px 13px 50px; 
+      }
+    .inputIcon {
+        width: 15px;
+        height: 15px;
+      }
+  }

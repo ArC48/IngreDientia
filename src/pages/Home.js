@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from '../assets/logo.png'
 import "./Home.css"
+import Input from "../components/Input/Input";
 export default class Home extends Component {
   render() {
     return <div>
@@ -10,7 +11,9 @@ export default class Home extends Component {
             <h1 className="headerText">Ingredientia</h1>
           </div>
           <div className="inputContainer">
-            <input className="inputElement"/>
+            <Input className="inputElement"
+              placeholder="Find by your ingredient..."
+            />
           </div>
         </div>
     </div>;
