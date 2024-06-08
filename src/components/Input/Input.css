@@ -15,7 +15,7 @@
     padding: 13px 16px 13px 60px; 
     border-radius: 25px;
     border: 1px solid #ccc;
-    width: 35%; 
+    width: 32%; 
     transition: background-color 0.2s ease-in-out;
     font-size: 20px;
   }
@@ -46,7 +46,7 @@
 
   @media screen and (min-width: 300px) and (max-width: 999px) {
     .inputElement {
-        width: 85%; 
+        width: 55%; 
         font-size: 15px;
         background-size: 25px;
         padding: 13px 16px 13px 50px; 

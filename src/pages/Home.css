@@ -15,11 +15,18 @@
     margin-left: 15px;
 }
 
-.inputContainer {
+.mainContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
     height: 20rem;
+}
+
+.hamburgerPic {
+    height: 69px;
+    width: auto;
+    margin-bottom: 30px;
 }
 
